@@ -11,7 +11,7 @@ class Database:
     @staticmethod
     def get_connection():
         username = 'root'
-        password = 'root@tyroo'
+        password = 'root'
         host = 'localhost'
         port = 3306
         database = 'vending_machine'
