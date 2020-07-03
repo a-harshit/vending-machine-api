@@ -38,7 +38,7 @@ class Controller(Resource):
     
     def post(self):
         '''
-            Method to return the transaction history
+            Method to check admin password
         '''
         try:
             data = loads(request.data)
